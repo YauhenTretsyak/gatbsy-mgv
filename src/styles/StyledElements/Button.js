@@ -18,7 +18,8 @@ ${({secondary}) =>
     css`
     border: .2rem solid ${({theme}) => theme.colors.column_title};
     color: ${({theme}) => theme.colors.column_title};
-    background-color: ${({theme}) => theme.colors.white};
+    background-color: none;
+    background: none;
 
     &:hover {
       color: ${({theme}) => theme.colors.white};
