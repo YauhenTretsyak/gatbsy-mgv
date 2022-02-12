@@ -3,7 +3,7 @@ import { ThemeProvider } from "styled-components"
 import GlobalStyle from "../styles/GlobalStyle"
 import { theme } from "../styles/theme"
 import { Helmet } from "react-helmet"
-import { Header, HeroSection, PriceSection, Footer } from "../components"
+import { Header, HeroSection, IntroMainSection, PriceSection, Footer } from "../components"
 
 
 // markup
@@ -20,6 +20,7 @@ const IndexPage = () => {
       <GlobalStyle />
       <Header />
       <HeroSection />
+      <IntroMainSection />
       <PriceSection />
       <Footer />
     </ThemeProvider>
