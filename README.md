@@ -1,8 +1,8 @@
-[Link do podglądu projektu na gh-pages](https://yauhentretsyak.github.io/gatbsy-mgv/)
+Link do podglądu projektu na gh-pages [gatbsy-mgv](https://yauhentretsyak.github.io/gatbsy-mgv/)
 
 Zadanie:
 
-- Zbuduj projekt modułowo - done ✅  (Projekt zrobiony w ##GatsbyJS##)
+- Zbuduj projekt modułowo - done ✅  (Projekt zrobiony w ##GatsbyJS)
 - Wykonaj projekt zgodnie ze standardami - done ✅
 - Wykonaj projekt zgodnie z projektem graficznym (pixel perfect) - done ✅ ( pixel perfect na szerokości 1440px, na podstawie projektu graficznego ) <br>
 
