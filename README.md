@@ -2,7 +2,7 @@ Link do podglądu projektu na gh-pages: [gatbsy-mgv](https://yauhentretsyak.gith
 
 Zadanie:
 
-- Zbuduj projekt modułowo - done ✅  (Projekt zrobiony w ## GatsbyJS)
+- Zbuduj projekt modułowo - done ✅  (Projekt zrobiony w GatsbyJS)
 - Wykonaj projekt zgodnie ze standardami - done ✅
 - Wykonaj projekt zgodnie z projektem graficznym (pixel perfect) - done ✅ ( pixel perfect na szerokości 1440px, na podstawie projektu graficznego ) <br>
 

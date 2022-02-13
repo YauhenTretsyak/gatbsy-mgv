@@ -9,7 +9,6 @@ const MenuContextProvider = (props) => {
 
   const toDisplayMenu = () => {
     setDisplayMenu(!displayMenu);
-    console.log(displayMenu)
   }
 
   return (
