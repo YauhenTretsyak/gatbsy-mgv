@@ -5,7 +5,7 @@ import Intro from './Intro/Intro';
 import IntroSections from "./IntroSections/Introsections";
 import PriceSection from "./PriceSection/PriceSection";
 import Footer from "./Footer/Footer";
-import AsideMobileMenu from './AsideMobileMenu/AsideMobileMenu'
+import AsideMobileMenu from './AsideMobileMenu/AsideMobileMenu';
 
 export { 
   Header, 

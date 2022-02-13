@@ -1,9 +1,15 @@
 import styled from 'styled-components';
+import screen_breakpoints from '../../../styles/StyledElements/screen_breakpoints';
 import { ImageContainer, SectionTitle } from '../../../styles/StyledElements';
 
 const IntroWrapper = styled.div`
+  margin-bottom: 2.5rem;
   width: 100%;
   max-width: 25.5rem;
+
+  ${ screen_breakpoints.sm } {
+    margin-bottom: 0;
+  }
 `
 
 const IntroImage = styled(ImageContainer)`
