@@ -19,7 +19,7 @@ const HeroSectionWrapper = styled(SectionContainer)`
   }
 `
 const HeroContent = styled.div`
-  padding: 2rem 0 2rem 0;
+  padding: 7rem 0 2rem 0;
   width: 100%;
   max-width: 53.9rem;
 

@@ -4,7 +4,7 @@ import { SectionTitle, Button } from '../../styles/StyledElements';
 
 const PriceSectionWrapper = styled.section`
   margin: 0 auto;
-  padding: 10.5rem 0 10.2rem 0;
+  padding: 10.5rem 1.5rem 10.2rem 1.5rem;
   width: 100%;
   max-width: 60rem;
   text-align: center;

@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-import { SectionContainer, Button } from '../../styles/StyledElements';
+import screen_breakpoints from '../../styles/StyledElements/screen_breakpoints';
+import { SectionContainer, Button, ImageContainer } from '../../styles/StyledElements';
 
 const HeaderSection = styled(SectionContainer)`
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,4 +18,16 @@ const ButtonLink = styled(Button)`
   line-height: 1.8rem;
 `
 
-export { HeaderSection, ButtonLink }
+const MenuButton = styled(ImageContainer)`
+  position: absolute;
+  left: 4rem;
+  top: 7rem;
+  width: 2.3rem;
+  z-index: 10;
+
+  ${ screen_breakpoints.sm } {
+    display: none;
+  }
+`
+
+export { HeaderSection, ButtonLink, MenuButton }
