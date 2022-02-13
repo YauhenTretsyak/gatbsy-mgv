@@ -1,4 +1,5 @@
 import * as React from 'react';
+import screen_breakpoints from '../../../styles/StyledElements/screen_breakpoints';
 import styled from 'styled-components';
 
 const LogoBlock = styled.h2`
@@ -7,14 +8,21 @@ const LogoBlock = styled.h2`
   font-size: 2.6rem;
   line-height: 3.8rem;
   font-weight: 900;
+
+  ${ screen_breakpoints.lg } {
+    ${props => props.isHeader ?
+      'margin-left: -8.4rem;' :
+      'margin-left: -2.4rem;'
+    }
+  }
 `
 
 const Logo = (props) => {
 
-  const { title } = props;
+  const { title, isHeader } = props;
 
   return(
-    <LogoBlock>
+    <LogoBlock isHeader={ isHeader } >
       { title }
     </LogoBlock>
   )

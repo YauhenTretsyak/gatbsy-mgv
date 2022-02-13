@@ -3,12 +3,12 @@ import { IntroWrapper, IntroImage, IntroTitle, IntroText } from './IntroMainDesc
 
 
 const IntroMainDescription = (props) => {
-  const { image, title, text } = props;
+  const { imgIntro, title, text } = props;
 
   return(
     <IntroWrapper>
       <IntroImage>
-        <img src={ image } alt='icon' />
+        <img src={ imgIntro } alt='icon' />
       </IntroImage>
       <IntroTitle>
         { title }

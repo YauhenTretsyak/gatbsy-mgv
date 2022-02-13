@@ -4,6 +4,7 @@ const Button = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: .2rem;
   color: ${({theme}) => theme.colors.white};
   background-color: ${({theme}) => theme.colors.btn_blue};
   transition: all .3s ease-in-out;

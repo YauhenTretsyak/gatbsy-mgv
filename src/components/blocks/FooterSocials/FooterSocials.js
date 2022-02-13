@@ -7,7 +7,7 @@ import { FlexContainer } from '../../../styles/StyledElements';
 
 const FooterSocialsWrapper = styled(FlexContainer)`
   width: 100%;
-  max-width: 18.5rem;
+  max-width: 19.5rem;
 `
 const SocialsLinks = styled.a`
   display: flex;

@@ -1,12 +1,21 @@
 import styled from 'styled-components';
+import screen_breakpoints from '../../styles/StyledElements/screen_breakpoints';
 import { SectionTitle, Button } from '../../styles/StyledElements';
 
 const PriceSectionWrapper = styled.section`
   margin: 0 auto;
-  padding: 28.5rem 0 17.2rem 0;
+  padding: 10.5rem 0 10.2rem 0;
   width: 100%;
   max-width: 60rem;
   text-align: center;
+
+  ${ screen_breakpoints.md } {
+    padding: 13.5rem 0 13.2rem 0;
+  }
+
+  ${ screen_breakpoints.lg } {
+    padding: 27.5rem 0 17.2rem 0;
+  }
 `
 
 const PriceSectionTitle = styled(SectionTitle)`

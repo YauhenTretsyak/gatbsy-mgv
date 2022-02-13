@@ -3,7 +3,8 @@ import { ThemeProvider } from "styled-components"
 import GlobalStyle from "../styles/GlobalStyle"
 import { theme } from "../styles/theme"
 import { Helmet } from "react-helmet"
-import { Header, HeroSection, IntroMainSection, PriceSection, Footer } from "../components"
+import MainPage from "../styles/StyledElements/MainPage"
+import { Header, HeroSection, IntroMainSection, IntroSections, PriceSection, Footer } from "../components"
 
 
 // markup
@@ -16,13 +17,17 @@ const IndexPage = () => {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Helmet>
       <GlobalStyle />
-      <Header />
-      <HeroSection />
-      <IntroMainSection />
-      <PriceSection />
-      <Footer />
+      <MainPage>
+        <Header />
+        <HeroSection />
+        <IntroMainSection />
+        <IntroSections />
+        <PriceSection />
+        <Footer />
+      </MainPage>
     </ThemeProvider>
   )
 }

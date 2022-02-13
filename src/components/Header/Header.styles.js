@@ -5,8 +5,8 @@ const HeaderSection = styled(SectionContainer)`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
 `
 const ButtonLink = styled(Button)`
   width: 100%;

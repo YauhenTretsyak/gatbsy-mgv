@@ -7,7 +7,10 @@ const Header = () => {
   return(
     <HeaderSection as='header'>
       <Navigation />
-      <Logo title={ 'Landie' } />
+      <Logo 
+        isHeader={ true }
+        title={ 'Landie' } 
+      />
       <ButtonLink>
         Buy Now
       </ButtonLink>

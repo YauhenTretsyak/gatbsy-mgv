@@ -2,7 +2,7 @@ import * as React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import introMainDescriptionData from '../../dataComponents/IntroMainDescriptionData';
 import { IntroMainDescription } from '../blocks';
-import section_image from '../../images/intro_main.png';
+import section_picture from '../../images/intro_main.png';
 
 import {
   IntroMainSectionWrapper,
@@ -21,7 +21,7 @@ const IntroMainSection = () => {
     return(
       <IntroMainDescription 
         key={ uuidv4() }
-        image={ item.img }
+        imgIntro={ item.img }
         title={ item.title }
         text={ item.text }
       />
@@ -45,7 +45,7 @@ const IntroMainSection = () => {
         </DescrpiptionWrapper>
       </ContentWrapper>
       <IntroMainImage>
-        <img src={ section_image } alt='section image' />
+        <img src={ section_picture } alt='section_picture' />
       </IntroMainImage>
     </IntroMainSectionWrapper>
   )

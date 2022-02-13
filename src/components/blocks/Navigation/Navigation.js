@@ -19,7 +19,10 @@ const Navigation = (props) => {
   })
 
   return(
-    <NavigationWrapper as='nav'>
+    <NavigationWrapper 
+      as='nav'
+      isFooter={ isFooter }
+    >
       { links }
     </NavigationWrapper>
   )
